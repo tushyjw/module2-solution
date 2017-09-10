@@ -9,7 +9,7 @@ h1 {
 p {
   border: 2px solid black;
   background-color: #C0C0C0;
-  width: 90%;
+  width: 95%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
@@ -19,6 +19,9 @@ p {
   padding: 0 0 10px 10px;
 }
 
+div{
+	
+}
 span{
 	border: 1px  solid black;
 	color: white;
@@ -31,9 +34,17 @@ span{
   padding: 0 12px 0 12px;
   clear: both;
 }/*  span is the floated element for Menu headings*/
-#container{
-	border: 2px solid black;
-  background-color: green;
+#heading1{
+  background-color: pink;
+  color: black;
+}
+#heading2{
+  background-color: red;
+  color: white;
+}
+#heading3{
+  background-color: yellow;
+  color: black;
 }
 
 #p1 {  
