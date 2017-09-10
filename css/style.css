@@ -1,1 +1,63 @@
-css
+/********** Base styles **********/
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+p {
+  border: 2px solid black;
+  background-color: #C0C0C0;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+/** Container test can be removed **/
+/**
+div#container {
+  background-color: blue;
+  position: relative;
+  top: 60px;
+} **/
+
+#p1 {
+  width: 300px;
+  height: 300px;
+}
+#p2 {
+  width: 50px;
+  height: 50px;
+}
+/********** Desktop view **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+  body {
+    background-color: blank;
+  }
+}
+@media (max-width: 767px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
